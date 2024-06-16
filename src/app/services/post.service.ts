@@ -8,7 +8,7 @@ import { Post } from '../post';
 })
 export class PostService {
 
-  private apiUrl = "http://localhost:3000/posts"
+  private apiUrl = "https://angular-server-e92k.onrender.com"
 
 
   constructor(private http: HttpClient) { }
