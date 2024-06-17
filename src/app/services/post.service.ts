@@ -8,7 +8,7 @@ import { Post } from '../post';
 })
 export class PostService {
 
-  private apiUrl = "https://deploy-json-server-main.onrender.com"
+  private apiUrl = "https://deploy-json-server-main.onrender.com/posts"
 
 
   constructor(private http: HttpClient) { }
